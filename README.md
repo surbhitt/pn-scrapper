@@ -34,3 +34,5 @@ $ python scrapper.py
 ```
 
 Output is stored in *data.json*
+
+![demo](sec.gif)
