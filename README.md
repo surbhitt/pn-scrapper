@@ -2,14 +2,14 @@
 
 **Lib used for automation**
 
-- Selenium
+- Selenium (assumption is that chrome browser is present on the system, if not the driver in the code needs to be changed to the specific browser)
 
 **Workflow**
 
 - Web page contains a div whose data is fetched dynamically
 - XHR call is made to endpoint to receive data filtered based on params
 - This div has id `reg-Projects`, req takes a bit to complete 
-- Furthere processing can only take place when the req completes
+- Further processing can only take place when the req completes
 - The resulting div contains an anchor tag containing a unique id 
 - Based on the id on clicking the anchor tag another fetch call is made for data
 - A modal opens with a loading state
@@ -21,7 +21,7 @@
 
 ## Run
 
-```console
+```
 $ python -m venv myenv
 
 # for windows

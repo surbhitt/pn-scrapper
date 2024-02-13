@@ -29,8 +29,7 @@ try:
     )
     modal_links = driver.find_elements(By.XPATH, '//a[@title="View Application"]')[:5]
 except:
-    # TODO: determine the type of err
-    print("[ERR] Failed while waiting for data fetch")
+    print("[ERR] Failed while waiting for registered projects")
     driver.close()
     exit(1)
 
