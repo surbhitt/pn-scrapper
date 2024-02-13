@@ -24,9 +24,9 @@
 ```
 $ python -m venv myenv
 
+$ source myenv/bin/activate
 # for windows
 # myenv/Scripts/activate
-$ source myenv/bin/activate
 
 $ pip install -r requirements.txt
 
